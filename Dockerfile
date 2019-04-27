@@ -14,10 +14,10 @@ RUN apk update \
     && apk add --no-cache --virtual build-dependencies \
       build-base=0.5-r1 \
     && apk add --no-cache \
-      libpcap=1.8.1-r1 \
+      libpcap=1.9.0-r1 \
       procps=3.3.15-r0 \
-      tcpdump=4.9.2-r3 \
-      scapy=2.4.0-r0 \
+      tcpdump=4.9.2-r4 \
+      scapy=2.4.2-r0 \
     && apk add --no-cache \
       bash \
     && pip install --no-cache-dir -r py3-requirements.txt \
